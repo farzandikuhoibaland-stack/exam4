@@ -1187,7 +1187,93 @@
       </div>
     </div>
   </section>
-  
+
+
+
+
+  <section class="relative bg-[#2082E8] py-16 text-white overflow-hidden">
+    
+    <!-- Seamless Doodle Pattern Background -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none mix-blend-overlay">
+      <img 
+        src="./pusht.png" 
+        alt="" 
+        class="w-full h-full object-cover repeat"
+      />
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      
+ 
+      <div class="space-y-8">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold mb-3">Остались вопросы?</h2>
+          <p class="text-blue-100 text-sm sm:text-base">Оставьте заявку и наша команда свяжется с вами</p>
+        </div>
+
+        <div class="space-y-4">
+          <p class="text-sm font-medium text-blue-100">Или напишите нам:</p>
+          <div class="flex flex-wrap items-center gap-4">
+            
+          
+        
+              <img src="./tg.png" alt="Telegram Icon" class="w-8 h-8 object-contain" />
+              <span class="text-sm font-medium">Telegram</span>
+            </a>
+
+
+               
+              <img src="./wst.png" alt="WhatsApp Icon" class="w-8 h-8 object-contain" />
+              <span class="text-sm font-medium">Whatsapp</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-8 shadow-2xl text-slate-800">
+        <form class="space-y-6" onsubmit="event.preventDefault();">
+          <div>
+            <input 
+              type="text" 
+              placeholder="Имя" 
+              required
+              class="w-full px-2 py-3 border-b border-slate-200 focus:border-blue-500 focus:outline-none text-sm transition-colors placeholder:text-slate-400"
+            />
+          </div>
+          <div>
+            <input 
+              type="email" 
+              placeholder="Почта" 
+              required
+              class="w-full px-2 py-3 border-b border-slate-200 focus:border-blue-500 focus:outline-none text-sm transition-colors placeholder:text-slate-400"
+            />
+          </div>
+          <div class="flex items-center space-x-3 border-b border-slate-200 py-2">
+            <button type="button" class="flex items-center space-x-1 text-slate-500 text-xs focus:outline-none">
+              <span>∨</span>
+              <span>(971)</span>
+              <span class="text-sm">🇦🇪</span>
+            </button>
+            <input 
+              type="tel" 
+              placeholder="Номер телефона" 
+              required
+              class="w-full py-1 focus:outline-none text-sm placeholder:text-slate-400"
+            />
+          </div>
+          <div class="pt-2">
+            <button 
+              type="submit" 
+              class="bg-[#00B894] hover:bg-[#00a383] text-white font-medium px-8 py-3 rounded-lg shadow-md transition-colors text-sm">
+              Оставить заявку
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
 
 </body>
 </html>
