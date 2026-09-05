@@ -653,6 +653,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -709,6 +713,10 @@ video {
   height: 5rem;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -747,6 +755,10 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .max-w-3xl {
@@ -1001,6 +1013,11 @@ video {
   background-color: rgb(248 250 252 / 0.3);
 }
 
+.bg-\[\#5FAAD0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(95 170 208 / var(--tw-bg-opacity, 1));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1100,6 +1117,16 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .pt-4 {
@@ -1425,6 +1452,11 @@ video {
 
 .hover\:bg-slate-50\/50:hover {
   background-color: rgb(248 250 252 / 0.5);
+}
+
+.hover\:bg-\[\#4d97be\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 151 190 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-emerald-400:hover {
