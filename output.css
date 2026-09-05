@@ -578,6 +578,14 @@ video {
   top: 50%;
 }
 
+.-left-5 {
+  left: -1.25rem;
+}
+
+.-right-5 {
+  right: -1.25rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -729,6 +737,14 @@ video {
   height: 260px;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .max-h-full {
   max-height: 100%;
 }
@@ -779,6 +795,10 @@ video {
 
 .w-\[260px\] {
   width: 260px;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .max-w-3xl {
@@ -966,6 +986,12 @@ video {
   margin-bottom: calc(0.625rem * var(--tw-space-y-reverse));
 }
 
+.space-y-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1111,6 +1137,11 @@ video {
   background-color: rgb(59 146 189 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1127,6 +1158,10 @@ video {
   background-repeat: repeat;
 }
 
+.stroke-current {
+  stroke: currentColor;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -1135,6 +1170,26 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-\[0\%_50\%\] {
+  -o-object-position: 0% 50%;
+     object-position: 0% 50%;
+}
+
+.object-\[100\%_50\%\] {
+  -o-object-position: 100% 50%;
+     object-position: 100% 50%;
+}
+
+.object-\[33\%_50\%\] {
+  -o-object-position: 33% 50%;
+     object-position: 33% 50%;
+}
+
+.object-\[66\%_50\%\] {
+  -o-object-position: 66% 50%;
+     object-position: 66% 50%;
 }
 
 .p-8 {
@@ -1624,6 +1679,11 @@ video {
   background-color: rgb(45 123 162 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-\[\#007394\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 115 148 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-emerald-400:hover {
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity, 1));
@@ -1865,6 +1925,10 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:justify-start {
